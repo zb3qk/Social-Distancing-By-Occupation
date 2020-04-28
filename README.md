@@ -1,4 +1,4 @@
-# Social-Distancing-By-Occupation
+# Social Distancing By Occupation
 
 ## Overview
 This project is the setup and execution of an agent-based simulation of social distancing practices using income and occupation as dependent variables. We received data from a range of government sources to inform contextual characteristics of different occupations and control data to inform our model. The simulations are driven by [Ryan McGee's SERIS Model](https://github.com/ryansmcgee/seirsplus).
