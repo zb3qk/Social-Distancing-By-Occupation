@@ -16,22 +16,22 @@ The regressions.ipynb file can calculate regressions on a number of data fields 
 We currently have two simulations. A Stimulus Check distribution sim and a mass layoff simulation. These situations will affect individuals savings by either removing their stream of income, or adding a discrete boost to one's savings. These were then compared to a baseline progression of the disease defined by our model.
 
 ### Baseline
-All Features             |  Infection Relevant Features
+All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Baseline all data](images/baseline_showAll.png)  |  ![Baseline Infection Data](images/baseline_showInfected.png)
 
 ### Layoffs for ~10% of pop
-All Features             |  Infection Relevant Features
+All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Layoffs all data](images/layoff_showAll.png)  |  ![Layoffs Infection Data](images/layoff_showInfected.png)
 
 ### Paycut
-All Features             |  Infection Relevant Features
+All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Paycut all data](images/paycut_showAll.png)  |  ![Paycut Infection Data](images/paycut_showInfected.png)
 
 ### Stimulus
-All Features             |  Infection Relevant Features
+All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Stimulus all data](images/stimulus_showAll.png)  |  ![Stimulus Infection Data](images/stimulus_showInfected.png)
 
