@@ -20,7 +20,20 @@ All Features             |  Infection Relevant Features
 :-------------------------:|:-------------------------:
 ![Baseline all data](images/baseline_showAll.png)  |  ![Baseline Infection Data](images/baseline_showInfected.png)
 
+### Layoffs for ~10% of pop
+All Features             |  Infection Relevant Features
+:-------------------------:|:-------------------------:
+![Layoffs all data](images/layoff_showAll.png)  |  ![Layoffs Infection Data](images/layoff_showInfected.png)
 
+### Paycut
+All Features             |  Infection Relevant Features
+:-------------------------:|:-------------------------:
+![Paycut all data](images/paycut_showAll.png)  |  ![Paycut Infection Data](images/paycut_showInfected.png)
+
+### Stimulus
+All Features             |  Infection Relevant Features
+:-------------------------:|:-------------------------:
+![Stimulus all data](images/stimulus_showAll.png)  |  ![Stimulus Infection Data](images/stimulus_showInfected.png)
 
 ## Data
 BEA County Employment: https://www.bea.gov/data/employment/employment-by-state<br/>
