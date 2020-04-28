@@ -11,7 +11,10 @@ The regressions.ipynb file can calculate regressions on a number of data fields 
 employment. We regress county income and employment controls on social distancing and then implement the coefficient of income into our SEIRS and income model.
 
 ## Simulation
-We ran two simulations. 
+We currently have two simulations. A Stimulus Check distribution sim and a mass layoff simulation. These situations will affect individuals savings by either removing their stream of income, or adding a discrete boost to one's savings. These were then compared to a baseline progression of the disease defined by our model.
+
+### Baseline
+
 
 ## Data
 BEA County Employment: https://www.bea.gov/data/employment/employment-by-state<br/>
