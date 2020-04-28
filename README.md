@@ -18,4 +18,5 @@ BEA County Employment: https://www.bea.gov/data/employment/employment-by-state<b
 BEA County Income: https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas  \
 Google Social Distancing Data: https://www.google.com/covid19/mobility/  \
 NYT Susceptiblity Data: https://www.nytimes.com/interactive/2020/03/15/business/economy/coronavirus-worker-risk.html  \
-Department of Labor ONet Job Characteristics and Information: https://www.onetcenter.org/database.html#individual-files  
+Department of Labor ONet Job Characteristics and Information: https://www.onetcenter.org/database.html#individual-files<br/>
+Industries Hit Hardest by Covid: https://www.usatoday.com/story/money/2020/03/20/us-industries-being-devastated-by-the-coronavirus-travel-hotels-food/111431804/
