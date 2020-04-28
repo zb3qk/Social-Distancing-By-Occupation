@@ -1,7 +1,7 @@
 # Social-Distancing-By-Occupation
 
 ## Overview
-This project is the setup and execution of an agent-based simulation of social distancing practices using income and occupation as dependent variables. We received data from a range of government sources to inform contextual characteristics of different occupations and control data to inform our theories.
+This project is the setup and execution of an agent-based simulation of social distancing practices using income and occupation as dependent variables. We received data from a range of government sources to inform contextual characteristics of different occupations and control data to inform our model.
 
 ## Organization
 This project is organized into two jupyter notebooks. `regression.ipynb` retreives regression data  
