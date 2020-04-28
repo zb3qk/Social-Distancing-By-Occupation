@@ -16,9 +16,11 @@ The regressions.ipynb file can calculate regressions on a number of data fields 
 We currently have two simulations. A Stimulus Check distribution sim and a mass layoff simulation. These situations will affect individuals savings by either removing their stream of income, or adding a discrete boost to one's savings. These were then compared to a baseline progression of the disease defined by our model.
 
 ### Baseline
+All Features             |  Infection Relevant Features
+:-------------------------:|:-------------------------:
+![Baseline all data](images/baseline_showAll.png)  |  ![Baseline Infection Data](images/baseline_showInfected.png)
 
-![Baseline all data](images/baseline_showAll.png)
-![Baseline Infection Data](images/baseline_showInfected.png)
+
 
 ## Data
 BEA County Employment: https://www.bea.gov/data/employment/employment-by-state<br/>
