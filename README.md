@@ -1,4 +1,4 @@
-# Social-Distancing-By-Occupation
+# Social Distancing By Occupation
 
 ## Overview
 This project is the setup and execution of an agent-based simulation of social distancing practices using income and occupation as dependent variables. We received data from a range of government sources to inform contextual characteristics of different occupations and control data to inform our model. The simulations are driven by [Ryan McGee's SERIS Model](https://github.com/ryansmcgee/seirsplus).
@@ -9,29 +9,31 @@ The model our simulations assume is inspired from [Reluga's Game Theory of Socia
 ### Organization
 This project is organized into two jupyter notebooks. `regression.ipynb` retreives regression data on from the following states (NJ, UT, GA, WA). `buildData.ipynb` generates pandas dataframes on charactersitics of occupations and their average income to set up  the simulation. The pickles folder contains pre-generated pickles of variables in the notebook file. This allows users to to jump straight to the simulation (*5. Running Simulations* in `buildData.ipynb`).   
 
+![](images/DataDiagram.png)
+
 ## Regression
-The regressions.ipynb file can calculate regressions on a number of data fields including social distancing data, county income and county employment. We regress county income and employment controls on social distancing and then implement the coefficient of income into our SEIRS and income model.
+The regressions.ipynb file can calculate regressions on a number of data fields including social distancing data, county income and county employment. We regress county income and employment controls on social distancing and then implement the coefficient of income into our SEIRS and income model.$\beta$
 
 ## Simulation
 We currently have two simulations. A Stimulus Check distribution sim and a mass layoff simulation. These situations will affect individuals savings by either removing their stream of income, or adding a discrete boost to one's savings. These were then compared to a baseline progression of the disease defined by our model.
 
 ### Baseline
-All Features             |  Infection Relevant Features
+All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Baseline all data](images/baseline_showAll.png)  |  ![Baseline Infection Data](images/baseline_showInfected.png)
 
 ### Layoffs for ~10% of pop
-All Features             |  Infection Relevant Features
+All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Layoffs all data](images/layoff_showAll.png)  |  ![Layoffs Infection Data](images/layoff_showInfected.png)
 
 ### Paycut
-All Features             |  Infection Relevant Features
+All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Paycut all data](images/paycut_showAll.png)  |  ![Paycut Infection Data](images/paycut_showInfected.png)
 
 ### Stimulus
-All Features             |  Infection Relevant Features
+All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Stimulus all data](images/stimulus_showAll.png)  |  ![Stimulus Infection Data](images/stimulus_showInfected.png)
 
