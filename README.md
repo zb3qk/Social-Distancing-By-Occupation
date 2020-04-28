@@ -10,6 +10,9 @@ This project is organized into two jupyter notebooks. `regression.ipynb` retreiv
 The regressions.ipynb file can calculate regressions on a number of data fields including social distancing data, county income and county
 employment. We regress county income and employment controls on social distancing and then implement the coefficient of income into our SEIRS and income model.
 
+## Simulation
+We ran two simulations. 
+
 ## Data
 BEA County Employment: https://www.bea.gov/data/employment/employment-by-state<br/>
 BEA County Income: https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas  \
