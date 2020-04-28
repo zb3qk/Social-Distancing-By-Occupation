@@ -11,8 +11,8 @@ The regressions.ipynb file can calculate regressions on a number of data fields 
 employment. We regress county income and employment controls on social distancing and then implement the coefficient of income into our SEIRS and income model.
 
 ## Data
-BEA County Employment: https://www.bea.gov/data/employment/employment-by-state \ 
-BEA County Income: https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas \
-Google Social Distancing Data: https://www.google.com/covid19/mobility/ \
-NYT Susceptiblity Data: https://www.nytimes.com/interactive/2020/03/15/business/economy/coronavirus-worker-risk.html \
-Department of Labor ONet Job Characteristics and Information: https://www.onetcenter.org/database.html#individual-files \
+BEA County Employment: https://www.bea.gov/data/employment/employment-by-state  \ 
+BEA County Income: https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas  \
+Google Social Distancing Data: https://www.google.com/covid19/mobility/  \
+NYT Susceptiblity Data: https://www.nytimes.com/interactive/2020/03/15/business/economy/coronavirus-worker-risk.html  \
+Department of Labor ONet Job Characteristics and Information: https://www.onetcenter.org/database.html#individual-files  \
