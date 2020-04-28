@@ -14,7 +14,7 @@ This project is organized into two jupyter notebooks. `regression.ipynb` retreiv
 ## Regression
 The regressions.ipynb file can calculate regressions on a number of data fields including social distancing data, county income and county employment. We regress county income and employment controls on social distancing and then implement the coefficient of income into our SEIRS and income model.
 
-Activity Deviation (Number of Trips to Work) = $\beta_0$ + $\beta_1*$ Personal Income + $\beta_2*$ Percent of Total Employment in Nonfarm Sectors + $\beta_3*$ Percent of Total Employment in Industries Heavily Affected by Coronavirus
+Activity Deviation (Number of Trips to Work) = &beta;<sub>0</sub> + &beta;<sub>1</sub> x *County Per Capita Personal Income*  + &beta;<sub>2</sub> x *Percent of Total Employment in Nonfarm Sectors* + &beta;<sub>2</sub> x *Percent of Total Employment in Industries Heavily Affected by Coronavirus* + &epsilon;
 
 ## Simulation
 We currently have two simulations. A Stimulus Check distribution sim and a mass layoff simulation. These situations will affect individuals savings by either removing their stream of income, or adding a discrete boost to one's savings. These were then compared to a baseline progression of the disease defined by our model.
