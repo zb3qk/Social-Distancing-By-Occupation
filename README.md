@@ -3,8 +3,8 @@
 ## Overview
 This project is the setup and execution of an agent-based simulation of social distancing practices using income and occupation as dependent variables. We received data from a range of government sources to inform contextual characteristics of different occupations and control data to inform our model.
 
-## Organization
-This project is organized into two jupyter notebooks. `regression.ipynb` retreives regression data  
+### Organization
+This project is organized into two jupyter notebooks. `regression.ipynb` retreives regression data on from the following states (NJ, UT, GA, WA). `buildData.ipynb` generates pandas dataframes on charactersitics of occupations and their average income to set up  the simulation. The pickles folder contains pre-generated pickles of variables in the notebook file. This allows users to to jump straight to the simulation (*5. Running Simulations* in `buildData.ipynb`).   
 
 ## Regression
 The regressions.ipynb file can calculate regressions on a number of data fields including social distancing data, county income and county
