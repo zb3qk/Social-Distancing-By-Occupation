@@ -31,56 +31,85 @@ We currently have three simulations. A *Layoff of ~30% of the population*, *A en
 #### Baseline
 All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
-![Baseline all data](images/baseline_showAll.png)  |  ![Baseline Infection Data](images/baseline_showInfected.png)
+![Baseline all data](images/Utah/baseline_showAll.png)  |  ![Baseline Infection Data](images/Utah/baseline_showInfected.png)
 
 #### Layoffs for ~10% of pop
 All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
-![Layoffs all data](images/layoff_showAll.png)  |  ![Layoffs Infection Data](images/layoff_showInfected.png)
+![Layoffs all data](images/Utah/layoff_showAll.png)  |  ![Layoffs Infection Data](images/Utah/layoff_showInfected.png)
 
 #### Paycut
 All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
-![Paycut all data](images/paycut_showAll.png)  |  ![Paycut Infection Data](images/paycut_showInfected.png)
+![Paycut all data](images/Utah/paycut_showAll.png)  |  ![Paycut Infection Data](images/Utah/paycut_showInfected.png)
 
 #### Stimulus
 All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
-![Stimulus all data](images/stimulus_showAll.png)  |  ![Stimulus Infection Data](images/stimulus_showInfected.png)
+![Stimulus all data](images/Utah/stimulus_showAll.png)  |  ![Stimulus Infection Data](images/Utah/stimulus_showInfected.png)
 
 ### New Jersey
 #### Baseline
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Baseline all data](images/NewJersey/baseline_showAll.png)  |  ![Baseline Infection Data](images/NewJersey/baseline_showInfected.png)
 
 #### Layoffs for ~10% of pop
-
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Layoffs all data](images/NewJersey/layoff_showAll.png)  |  ![Layoffs Infection Data](images/NewJersey/layoff_showInfected.png)
 
 #### Paycut
-
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Paycut all data](images/NewJersey/paycut_showAll.png)  |  ![Paycut Infection Data](images/NewJersey/paycut_showInfected.png)
 
 #### Stimulus
-
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Stimulus all data](images/NewJersey/stimulus_showAll.png)  |  ![Stimulus Infection Data](images/NewJersey/stimulus_showInfected.png)
 
 ### Georgia
 #### Baseline
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Baseline all data](images/Georgia/baseline_showAll.png)  |  ![Baseline Infection Data](images/Georgia/baseline_showInfected.png)
 
 #### Layoffs for ~10% of pop
-
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Layoffs all data](images/Georgia/layoff_showAll.png)  |  ![Layoffs Infection Data](images/Georgia/layoff_showInfected.png)
 
 #### Paycut
-
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Paycut all data](images/Georgia/paycut_showAll.png)  |  ![Paycut Infection Data](images/Georgia/paycut_showInfected.png)
 
 #### Stimulus
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Stimulus all data](images/Georgia/stimulus_showAll.png)  |  ![Stimulus Infection Data](images/Georgia/stimulus_showInfected.png)
 
 ### Washington
 #### Baseline
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Baseline all data](images/Washington/baseline_showAll.png)  |  ![Baseline Infection Data](images/Washington/baseline_showInfected.png)
 
 #### Layoffs for ~10% of pop
-
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Layoffs all data](images/Washington/layoff_showAll.png)  |  ![Layoffs Infection Data](images/Washington/layoff_showInfected.png)
 
 #### Paycut
-
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Paycut all data](images/Washington/paycut_showAll.png)  |  ![Paycut Infection Data](images/Washington/paycut_showInfected.png)
 
 #### Stimulus
+All Features             |  Relevant Infection Features
+:-------------------------:|:-------------------------:
+![Stimulus all data](images/Washington/stimulus_showAll.png)  |  ![Stimulus Infection Data](images/Washington/stimulus_showInfected.png)
 
 ## Data
 BEA County Employment: https://www.bea.gov/data/employment/employment-by-state<br/>
