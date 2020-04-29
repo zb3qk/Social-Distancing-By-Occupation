@@ -17,25 +17,65 @@ The regressions.ipynb file can calculate regressions on a number of data fields 
 ## Simulation
 We currently have two simulations. A Stimulus Check distribution sim and a mass layoff simulation. These situations will affect individuals savings by either removing their stream of income, or adding a discrete boost to one's savings. These were then compared to a baseline progression of the disease defined by our model.
 
-### Baseline
+![](images/SEIRS.png)
+
+![](images/Simulation.png)
+
+### Utah
+
+#### Baseline
 All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Baseline all data](images/baseline_showAll.png)  |  ![Baseline Infection Data](images/baseline_showInfected.png)
 
-### Layoffs for ~10% of pop
+#### Layoffs for ~10% of pop
 All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Layoffs all data](images/layoff_showAll.png)  |  ![Layoffs Infection Data](images/layoff_showInfected.png)
 
-### Paycut
+#### Paycut
 All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Paycut all data](images/paycut_showAll.png)  |  ![Paycut Infection Data](images/paycut_showInfected.png)
 
-### Stimulus
+#### Stimulus
 All Features             |  Relevant Infection Features
 :-------------------------:|:-------------------------:
 ![Stimulus all data](images/stimulus_showAll.png)  |  ![Stimulus Infection Data](images/stimulus_showInfected.png)
+
+### New Jersey
+#### Baseline
+
+#### Layoffs for ~10% of pop
+
+
+#### Paycut
+
+
+#### Stimulus
+
+
+### Georgia
+#### Baseline
+
+#### Layoffs for ~10% of pop
+
+
+#### Paycut
+
+
+#### Stimulus
+
+### Washington
+#### Baseline
+
+#### Layoffs for ~10% of pop
+
+
+#### Paycut
+
+
+#### Stimulus
 
 ## Data
 BEA County Employment: https://www.bea.gov/data/employment/employment-by-state<br/>
