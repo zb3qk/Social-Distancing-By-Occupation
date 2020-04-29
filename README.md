@@ -23,7 +23,23 @@ This project is organized into two jupyter notebooks. `regression.ipynb` retreiv
 ![](images/DataDiagram.png)
 
 ## Regression
-The regressions.ipynb file can calculate regressions on a number of data fields including social distancing data, county income and county employment. We regress county income and employment controls on social distancing and then implement the coefficient of income into our SEIRS and income model.$\beta$
+The regressions.ipynb file can calculate regressions on a number of data fields including social distancing data, county income and county employment. We regress county income and employment controls on social distancing and then implement the coefficient of income into our SEIRS and income model.
+
+New Jersey and Utah share the same regression form:  
+Activity Deviation (Number of Trips to Work) = &beta;<sub>0</sub> + &beta;<sub>1</sub> x *Log County Per Capita Personal Income*  + &beta;<sub>2</sub> x *Percent of Total Employment in Nonfarm Sectors* + &beta;<sub>2</sub> x *Percent of Total Employment in Industries Heavily Affected by Coronavirus* + &epsilon;
+
+Washington and Georgia share another form:  
+Activity Deviation (Number of Trips to Work) = &beta;<sub>0</sub> + &beta;<sub>1</sub> x *Log County Per Capita Personal Income*  + &beta;<sub>2</sub> x *Percent of Total Employment in Nonfarm Sectors* + &beta;<sub>2</sub> x *Percent of Total Employment in Nonfarm Sectors Squared*  + &epsilon;
+
+We chose these forms to find the best fit for each state. This would enable us to get a more accurate relationship between activity deviation and income. Washington and Georgia had a quadratic form in their nonfarm scatterplots while New Jersey and Utah did not. GA and WA also had little correlation between hospitality/entertainment employment percent and activity deviation so we did not include those features in their model.
+
+County Per Capita Income           |  Log Per Capita Income
+:-------------------------:|:-------------------------:
+![Per Capita Income](images/percap_income.png)  |  ![Log Per Capita Income](images/log_income.png)
+
+Nonfarm Employment Percentage           |  Entertainment and Hospitaltiy Employment Percentage
+:-------------------------:|:-------------------------:
+![Nonfarm Percent](images/nonfarm.png)  |  ![Entertainmnet and Hospitality Percent](images/entHosp_pct.png)
 
 ## Simulation
 Inside of our model, we define each agent as an `Individual` with a set of characteristics and responses to each simulation.
