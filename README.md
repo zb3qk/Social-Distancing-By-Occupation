@@ -22,6 +22,14 @@ Activity Deviation (Number of Trips to Work) = &beta;<sub>0</sub> + &beta;<sub>1
 
 We chose these forms to find the best fit for each state. This would enable us to get a more accurate relationship between activity deviation and income. Washington and Georgia had a quadratic form in their nonfarm scatterplots while New Jersey and Utah did not. GA and WA also had little correlation between hospitality/entertainment employment percent and activity deviation so we did not include those features in their model.
 
+County Per Capita Income           |  Log Per Capita Income
+:-------------------------:|:-------------------------:
+![Per Capita Income](images/percap_income.png)  |  ![Log Per Capita Income](images/log_income.png)
+
+Nonfarm Employment Percentage           |  Entertainment and Hospitaltiy Employment Percentage
+:-------------------------:|:-------------------------:
+![Nonfarm Percent](images/nonfarm.png)  |  ![Entertainmnet and Hospitality Percent](images/entHosp_pct.png)
+
 ## Simulation
 We currently have two simulations. A Stimulus Check distribution sim and a mass layoff simulation. These situations will affect individuals savings by either removing their stream of income, or adding a discrete boost to one's savings. These were then compared to a baseline progression of the disease defined by our model.
 
